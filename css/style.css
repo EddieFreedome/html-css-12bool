@@ -8,8 +8,20 @@
 [class*="col"]{
     font-size: 18px;
     text-align: center;
-    background-color: rgb(28, 198, 255);
+    background-color: rgb(28, 100, 255);
     border: 1px solid white;
     color: white;
     padding: 15px 0px;
+}
+
+.row .row{
+    padding: 0px 10px;
+}
+
+.nested{
+    display: flex;
+    background-color: yellowgreen;
+    border: 1px solid rgb(28, 100, 255);
+    justify-content: center;
+    padding: 10px 10px;
 }
